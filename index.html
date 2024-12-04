@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="board">
+                <h3>HOME</h3>
+                <div class="score">
+                    <h1 id="home_score">0</h1>
+                </div>
+                <div class="btns">
+                    <button onclick="addOneHome()">+1</button>
+                    <button onclick="addTwoHome()">+2</button>
+                    <button onclick="addThreeHome()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h1 id="guest_score">0</h1>
+                <div class="btns">
+                    <button onclick="addOneGuest()">+1</button>
+                    <button onclick="addTwoGuest()">+2</button>
+                    <button onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="ng_btn">
+            <button onclick="reset()">NEW GAME</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
